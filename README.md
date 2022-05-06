@@ -6,7 +6,6 @@ Main features:
 
 * Source Map support
 * Incremental Build
-* Unit tests
 * Browser Hot Reload
 
 
@@ -23,9 +22,8 @@ Main dependencies:
 
 Node, TypeScript and TSLint should be installed globally.
 
-	$> git clone https://github.com/yahiko00/PixiProject.git <new folder>
+	$> git clone https://github.com/elWildo/draw-ball-game.git <new folder>
 	$> cd <new folder>
-	$> git init
 	$> npm install
 
 
@@ -44,9 +42,14 @@ The following command builds the project in production mode.
 
 For more predefined commands, see `package.json`, item `scripts`.
 
+## Example ##
+
+You can find an example of the working project [here](https://elwildo.github.io/draw-ball-game/)
+
 ## Contributors ##
 
 yahiko
+elWildo
 
 
 ## Licence ##
