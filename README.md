@@ -48,8 +48,8 @@ You can find an example of the working project [here](https://elwildo.github.io/
 
 ## Contributors ##
 
-yahiko
-elWildo
+* yahiko
+* elWildo
 
 
 ## Licence ##
