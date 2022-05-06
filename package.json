@@ -4,7 +4,7 @@
   "description": "Pixi.js project boiler plate using TypeScript, Webpack and Mocha",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
-    "serve": "webpack-dev-server --hot",
+    "start": "webpack-dev-server --hot",
     "test": "mocha tests"
   },
   "repository": {
