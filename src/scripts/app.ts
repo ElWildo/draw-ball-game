@@ -270,8 +270,15 @@ function reset() {
         winningBallTracker[i] = 0;
     }
     winningBallArray = [];
-    activateDeactivateButton(resetButton);
-    activateDeactivateButton(luckyDipButton);
+    if(!resetButton.interactive){
+        activateDeactivateButton(resetButton);
+    }
+    if(!luckyDipButton.interactive){
+        activateDeactivateButton(luckyDipButton);
+    }
+    if(startGameButton.interactive){
+        activateDeactivateButton(startGameButton);
+    }
 }
 
 function activateDeactivateButton(button: PIXI.Graphics) {
