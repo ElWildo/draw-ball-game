@@ -85,7 +85,7 @@ function fillBallsArray(arrayTracker: boolean[]) {
         text.y = ball.height / 2;
         ball.addChild(text);
         ball.interactive = true;
-        ball.on('click', () => { handleBallClick(ball, i) });
+        ball.on('pointerdown', () => { handleBallClick(ball, i) });
         arrayFilled.push(ball);
     }
     return arrayFilled
@@ -221,7 +221,7 @@ function createButton(text: string, x: number, y: number, callback: Function) {
     button.addChild(textPixi);
     button.interactive = false;
     button.buttonMode = false;
-    button.on('click', callback);
+    button.on('pointerdown', callback);
     return button
 }
 
